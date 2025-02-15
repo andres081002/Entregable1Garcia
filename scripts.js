@@ -14,3 +14,12 @@ cantidad: cantidad,//cantidad del stock del juego
 inventario.push(juego);
 console.log("Se agrego ${nombre} al inventario.")
 }
+
+//funcion para mostrar el inventario
+function mostrarinventario(){
+console.log("inventario:")
+inventario .foreach(juego =>{
+    "${juego.nombre} - Precio: ${juego.precio} - Género: ${juego.genero} - Stock: ${juego.cantidad}"
+})
+
+}
