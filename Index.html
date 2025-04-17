@@ -5,22 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda de juegos</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.all.min.js"></script>
 </head>
 <body>
     <header>
         <h1>Tienda de Juegos</h1>
       </header>
-      <main>
+      <section id="resumen-carrito">
+        <h2>Resumen del Carrito</h2>
+        <p>Items: <span id="cantidad-items-carrito">0</span></p>
+        <p>Total: $<span id="total-carrito">0</span></p>
+        <button id="ver-carrito">Ver Carrito Completo</button>
+    </section>
+    <main>
         <section id="productos-container">
-          <h2>Productos Disponibles</h2>
-          </section>
-        <section id="carrito-container">
-          <h2>Carrito de Compras</h2>
-          </section>
-      </main>
-      <footer>
+            <h2>Productos Disponibles</h2>
+        </section>
+        <section id="carrito-container" class="oculto">
+            <h2>Carrito de Compras</h2>
+        </section>
+    </main>
+    <footer>
         <p>&copy; 2025 Tienda de Juegos</p>
-      </footer>
-    <script src="scripts.js" defer></script>
+    </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>

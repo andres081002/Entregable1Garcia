@@ -1,0 +1,10 @@
+[
+  { "nombre": "Mario Kart", "precio": 20000, "genero": "Carreras", "cantidad": 25, "id": 1, "imagen": "img/mariok.gif" },
+  { "nombre": "The Legend of Zelda", "precio": 25000, "genero": "Aventura", "cantidad": 30, "id": 2, "imagen": "img/the-legend-of-zelda-tears-of-the-kingdom.jpg" },
+  { "nombre": "Grand Theft Auto V", "precio": 18000, "genero": "Acción", "cantidad": 75, "id": 3, "imagen": "img/gta-v-ps5.jpg" },
+  { "nombre": "Minecraft", "precio": 12000, "genero": "Sandbox", "cantidad": 150, "id": 4, "imagen": "img/minecraft-xbox.jpg" },
+  { "nombre": "FIFA 24", "precio": 22000, "genero": "Deportes", "cantidad": 60, "id": 5, "imagen": "img/fifa23-ps5.jpg" },
+  { "nombre": "Stardew Valley", "precio": 8000, "genero": "Simulación", "cantidad": 90, "id": 6, "imagen": "img/stardew-valley.jpg" },
+  { "nombre": "Cyberpunk 2077", "precio": 28000, "genero": "RPG", "cantidad": 40, "id": 7, "imagen": "img/cyberpunk.jpg" },
+  { "nombre": "Mortal Kombat", "precio": 27000, "genero": "Peleas", "cantidad": 45, "id": 8, "imagen": "img/mk1-ultimate-series-x.jpg" }
+  ]
